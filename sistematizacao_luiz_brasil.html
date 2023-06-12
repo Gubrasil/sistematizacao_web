@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Sistematização Programação Web </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <h1>
+        <a href="https://www.instagram.com/1mais1brasilia/?hl=pt-br">@1mais1Brasilia</a>
+    </h1>
+    <h2>
+        Sobre a loja
+        <p>
+            A @1mais1Brasilia é a loja infantil mais descolada de Brasília. A Franquia teve a primeira Loja aberta na
+            capital em setembro de 2016.
+        </p>
+
+        <p>
+            A loja vende roupas infantis com muita qualidade e exclusividade.
+        </p>
+    </h2>
+    <h3>
+        <p id=descricao>
+            Produtos a Venda
+        </p>
+        <table>
+            <tr>
+                <th>Código Produto</th>
+                <th>Nome do Produto</th>
+                <th>Descrição do Produto</th>
+                <th>Valor</th>
+                <th>Foto</th>
+            </tr>
+
+            <tr>
+                <td>00001</td>
+                <td>Vestido e Bolsa 1+1</td>
+                <td>Vestido em tricoline da marca 1+1 com bolsa estilosa</td>
+                <td>R$ 350,00</td>
+                <td><img src="IMG_bolsa_e_vestido.jpg" title="Vestido com Bolsa" width="100"></td>
+            </tr>
+
+            <tr>
+                <td>00002</td>
+                <td>Macaquinho 1+1</td>
+                <td>Macaquinho Verde água da marca 1+1 </td>
+                <td>R$ 300,00</td>
+                <td><img src="IMG_macaquinho.jpg" title="Vestido com Bolsa" width="100"></td>
+            </tr>
+            <tr>
+                <td>00003</td>
+                <td>Vestido Preto de Bolinhas</td>
+                <td>Vestido preto com bolinhas da marca 1+1 em tecido 100% algodão</td>
+                <td>R$ 250,00</td>
+                <td><img src="IMG_vestido.jpg" title="Vestido preto com bolinhas" width="100"></td>
+            </tr>
+        </table>
+    </h3>
+    <h4>
+        Equipe @1mais1Brasilia
+    </h4>
+    <table id=tabelavendedoras>
+        <tr id=tabelavendedoras>
+            <th id=tabelavendedoras>Cargo</th>
+            <th id=tabelavendedoras>Nome da Funcionária</th>
+            <th id=tabelavendedoras>Foto</th>
+        </tr>
+
+        <tr id=tabelavendedoras>
+            <td id=tabelavendedoras>Gerente</td>
+            <td id=tabelavendedoras>Sheila</td>
+            <td id=tabelavendedoras><img src="IMG_sheila.jpg" title="Sheila" width="80"></td>
+        </tr>
+        <tr id=tabelavendedoras>
+            <td id=tabelavendedoras>Vendedora</td>
+            <td id=tabelavendedoras>Fernanda</td>
+            <td id=tabelavendedoras><img src="IMG_fernanda.jpg" title="Fernanda" width="80"></td>
+        </tr>
+        <tr id=tabelavendedoras>
+            <td id=tabelavendedoras>Vendedora</td>
+            <td id=tabelavendedoras>Adriana</td>
+            <td id=tabelavendedoras><img src="IMG_Adriana.jpg" title="Adriana" width="80"></td>
+        </tr>
+    </table>
+
+    <h5>
+    Para Saber mais sobre nossos produtos preencha o formulário a seguir:
+
+    <form action="/mais-produtos" method="post">
+        <div>
+            <label for="name">Nome :</label>
+            <input type="text" id="name" />
+        </div>
+        <div>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" />
+        </div>
+        <div>
+            <label for="estado">Estado:</label>
+            <input type="estado" id="estado" >
+        </div>
+        <div>
+            <label for="cidade">Cidade:</label>
+            <input type="cidade" id="cidade" >
+        </div>
+        <div class="button">
+            <button type="submit">Enviar sua mensagem</button>
+        </div>
+    </form>
+    </h5>
+</body>
+
+</html>
